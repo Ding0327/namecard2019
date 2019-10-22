@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Sans+TC&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Fascinate+Inline&display=swap");
+* {
+  font-family: "Noto Sans TC", sans-serif;
+  position: relative;
+  font-weight: 100;
+  letter-spacing: 2px;
+  color: #F1F1F2;
+  transition: 0.5s;
+}
+
+body {
+  background-color: #F2B9AC;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.namecard {
+  cursor: help;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 350px;
+  padding: 20px;
+  margin: auto;
+  margin-top: 100px;
+  background-color: #3E6E8C;
+  font-size: 14px;
+  overflow: hidden;
+  border: 1px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  transition: 0.5s;
+}
+.namecard:hover {
+  transform: translateY(-5px) translateX(-5px);
+  box-shadow: 5px 5px 25px #323232;
+}
+.namecard h2 {
+  margin-top: 0;
+  line-height: 1.5;
+  font-size: 25px;
+}
+.namecard h2 span {
+  margin-left: 10px;
+  font-size: 14px;
+}
+.namecard h5 {
+  font-size: 14px;
+}
+.namecard .description {
+  margin-top: 40px;
+  font-size: 12px;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  position: absolute;
+}
+
+.circle1 {
+  width: 10px;
+  height: 10px;
+  top: 155px;
+  background-color: "";
+  border: 1.2px solid #F1F1F2;
+}
+
+.mark {
+  text-decoration: none;
+  position: absolute;
+  text-align: center;
+  left: 70%;
+  top: 20%;
+  font-size: 55px;
+  font-family: "Fascinate Inline", cursive;
+}
+.mark:hover {
+  transform-origin: 50% 50%;
+  transform: scale(0.8);
+  color: #3E6E8C;
+}
+
+.circle2 {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  left: 100%;
+  top: 100%;
+  transform: translate(-50%, -50%);
+  background-color: #65A3C5;
+}
+
+.circle3 {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 100%;
+  top: 100%;
+  transform: translate(-50%, -50%);
+  background-color: #F1F1F2;
+}
+
+.circle4 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 100%;
+  top: 100%;
+  transform: translate(-50%, -50%);
+  background-color: #65A3C5;
+}
